@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #B2D8D5;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  margin: 25px;
+  text-decoration: none;
+  color: #2A002B;
+  font-weight: bold;
+  font-family: arial;
+}
+
+a:hover {
+  color: #59395A;
+  transition: all 0.2s;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 25px;
+}
+
+.albumWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.albumWrapperShow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.singleAlbum {
+  min-width: 200px;
+  max-width: 400px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.singleAlbum:hover {
+  box-shadow: 0 0 8px black;
+  transition: all 0.2s;
+}
+
+.albumTitle {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cover {
+  width: 100%;
+}
+
