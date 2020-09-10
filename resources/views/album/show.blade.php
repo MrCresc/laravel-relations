@@ -15,6 +15,14 @@
       <h2>Anno: {{$album->year}}</h2>
     </div>
 
+    <div>
+      <ul>Tag Album:
+        @foreach ($album->tags as $tag)
+          <li>- {{$tag->tag}}</li>
+        @endforeach
+      </ul>
+    </div>
+
     <h3>Lista canzoni dell'Album "{{$album->title}}"</h3>
 
     <ul>
